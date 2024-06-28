@@ -10,7 +10,7 @@ interface HeroProps {
 export default function Hero(props: HeroProps) {
   return (
     <>
-      <div className="relative h-[80vh] flex justify-center items-center">
+      <div className="relative h-[100vh] flex justify-center items-center">
         <div className="absolute -z-10 inset-0">
           <Image
             src={props.imgData}
