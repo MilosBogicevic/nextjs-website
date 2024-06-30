@@ -8,8 +8,8 @@ import PinterestIcon from "/public/ecsmb-pinterest.svg";
 export default function Footer() {
   return (
     <footer className="flex w-full border-t border-gray-200 p-8">
-      <div className="flex container mx-auto items-center justify-between">
-        <div className="flex flex-col">
+      <div className="flex container mx-auto items-center justify-between flex-col md:flex-row gap-y-8">
+        <div className="flex flex-col items-center md:items-start">
           <Link href="/">
             <Image
               src={Logo}
@@ -19,7 +19,7 @@ export default function Footer() {
               className="transition-transform hover:scale-105"
             />
           </Link>
-          <p className="mt-2">@ 2024 ECSMB. All Rights Reserved.</p>
+          <p className="mt-2 text-center md:text-left">@ 2024 ECSMB. All Rights Reserved.</p>
         </div>
         <div className="flex space-x-4">
           <Link href="https://www.facebook.com">

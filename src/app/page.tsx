@@ -1,6 +1,12 @@
 import Hero from "@/components/Hero";
 import homeImg from "/public/hero-image-1.jpg";
 import InfoSectionBelowHero from "@/components/InfoSectionBelowHero";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ECSMB - High performance eCommerce solutions",
+  description: "",
+};
 
 export default function Home() {
   return (
