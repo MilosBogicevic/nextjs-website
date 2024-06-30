@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us",
-  description: "",
+  description: "Let's Discuss Your Business Transformation Needs",
 };
 
 export default function ContactPage() {
@@ -13,7 +13,7 @@ export default function ContactPage() {
         <Hero
         imgData={homeImg}
         imgAlt="Contact Us"
-        title="We are a modern consulting company focused on strategy, technology, and business transformation."
+        title="Let's Discuss Your Business Transformation Needs"
       />
       </>
     );

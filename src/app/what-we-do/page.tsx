@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "What we do",
-  description: "",
+  description: "We design, develop, and deliver exceptional eCommerce experiences.",
 };
 
 export default function WhatWeDoPage() {
@@ -13,7 +13,7 @@ export default function WhatWeDoPage() {
       <Hero
         imgData={homeImg}
         imgAlt="What we do"
-        title="We design, develop, and deliver eCommerce experiences"
+        title="We design, develop, and deliver exceptional eCommerce experiences."
       />
     </>
   );

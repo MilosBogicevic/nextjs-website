@@ -4,8 +4,8 @@ import InfoSectionBelowHero from "@/components/InfoSectionBelowHero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ECSMB - High performance eCommerce solutions",
-  description: "",
+  title: "ECSMB - High-Performance eCommerce solutions",
+  description: "Innovative eCommerce Solutions for Maximum Impact.",
 };
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero
         imgData={homeImg}
         imgAlt="Hero image for home page"
-        title="We offer high performance eCommerce solutions"
+        title="Innovative eCommerce Solutions for Maximum Impact."
       />
       <InfoSectionBelowHero
         title="About Us"
