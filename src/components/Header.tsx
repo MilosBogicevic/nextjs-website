@@ -15,13 +15,13 @@ export default function Header() {
 
   const closeMenu = () => {
     setIsMenuOpen(false);
-  }
+  };
 
   const pathname = usePathname();
 
   return (
     <div className="w-full absolute bg-white z-10">
-      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-8 gap-y-8">
+      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-8">
         <div className="flex w-full md:w-auto justify-between gap-x-8">
           <Link href="/" onClick={closeMenu}>
             <Image
@@ -43,28 +43,39 @@ export default function Header() {
           </div>
         </div>
         <div
-          className={`flex flex-col items-center sm:flex-row gap-x-8 gap-y-4 text-xl text-primary font-bold ${
-            isMenuOpen ? "flex" : "hidden"
-          } md:flex`}
+          className={`flex flex-col items-center sm:flex-row gap-x-8 gap-y-4 text-xl text-primary font-bold transition-all duration-500 ease-in-out overflow-hidden ${
+            isMenuOpen ? "max-h-screen opacity-100 mt-8" : "max-h-0 opacity-0"
+          } md:max-h-none md:opacity-100 md:flex`}
         >
           <Link
             href="/what-we-do"
-            className={pathname === "/what-we-do" ? "border-b-2 border-primary" : "border-b-2 border-transparent hover:border-b-2 hover:border-primary"}
-
+            className={
+              pathname === "/what-we-do"
+                ? "border-b-2 border-primary"
+                : "border-b-2 border-transparent hover:border-b-2 hover:border-primary"
+            }
             onClick={closeMenu}
           >
             what we do
           </Link>
           <Link
             href="/who-we-are"
-            className={pathname === "/who-we-are" ? "border-b-2 border-primary" : "border-b-2 border-transparent hover:border-b-2 hover:border-primary"}
+            className={
+              pathname === "/who-we-are"
+                ? "border-b-2 border-primary"
+                : "border-b-2 border-transparent hover:border-b-2 hover:border-primary"
+            }
             onClick={closeMenu}
           >
             who we are
           </Link>
           <Link
             href="/contact"
-            className={`border-2 border-primary px-4 py-2 ${pathname === "/contact" ? "bg-secondary text-primary" : "bg-primary text-secondary hover:bg-primary-light transition-transform"}`}
+            className={`border-2 border-primary px-4 py-2 ${
+              pathname === "/contact"
+                ? "bg-secondary text-primary"
+                : "bg-primary text-secondary hover:bg-primary-light transition-transform"
+            }`}
             onClick={closeMenu}
           >
             let&apos;s talk

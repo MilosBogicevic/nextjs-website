@@ -1,7 +1,9 @@
 import Hero from "@/components/Hero";
 import homeImg from "/public/hero-image-1.jpg";
-import InfoSectionBelowHero from "@/components/InfoSectionBelowHero";
+import AboutSection from "@/components/AboutSection";
 import { Metadata } from "next";
+import InfoGrid from "@/components/InfoGrid";
+import Spacer from "@/components/Spacer";
 
 export const metadata: Metadata = {
   title: "ECSMB - High-Performance eCommerce solutions",
@@ -16,14 +18,14 @@ export default function Home() {
         imgAlt="Hero image for home page"
         title="Innovative eCommerce Solutions for Maximum Impact."
       />
-      <InfoSectionBelowHero
+      <Spacer height="h-20 md:h-40" />
+      <AboutSection
         title="About Us"
-        text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-          reprehenderit voluptatem magni laborum commodi? Facere quae nisi
-          laboriosam ut earum? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Obcaecati culpa voluptatibus, sequi illo sunt ad.
-          Est odit laborum autem a."
+        text="ECSMB is a consulting and software development company specializing in comprehensive eCommerce solutions for the world's most innovative brands. We empower entrepreneurs with tools and strategies that transform their eCommerce stores into exceptional platforms."
       />
+      <Spacer height="h-20 md:h-40" />
+      <InfoGrid />
+      <Spacer height="h-20 md:h-40" />
     </>
   );
 }

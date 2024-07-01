@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "/public/logo.svg";
+import LinkedinIcon from "/public/ecsmb-linkedin.svg";
 import InstagramIcon from "/public/ecsmb-instagram.svg";
 import FacebookIcon from "/public/ecsmb-facebook.svg";
 import PinterestIcon from "/public/ecsmb-pinterest.svg";
@@ -19,9 +20,20 @@ export default function Footer() {
               className="transition-transform hover:scale-105"
             />
           </Link>
-          <p className="mt-2 text-center md:text-left">@ 2024 ECSMB. All Rights Reserved.</p>
+          <p className="mt-2 text-center md:text-left">
+            @ 2024 ECSMB. All Rights Reserved.
+          </p>
         </div>
         <div className="flex space-x-4">
+          <Link href="https://www.linkedin.com/company/ecmsb">
+            <Image
+              src={LinkedinIcon}
+              alt="ECSMB Facebook page"
+              width={40}
+              height={40}
+              className="transition-transform hover:scale-105"
+            />
+          </Link>
           <Link href="https://www.facebook.com">
             <Image
               src={FacebookIcon}
