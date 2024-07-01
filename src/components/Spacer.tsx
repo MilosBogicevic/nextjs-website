@@ -4,8 +4,6 @@ interface SpacerProps {
   height: string;
 }
 
-const Spacer: React.FC<SpacerProps> = (prop) => {
-  return <div className={`${prop.height}`}></div>;
-};
-
-export default Spacer;
+export default function Spacer(props: SpacerProps) {
+  return <div className={`${props.height}`}></div>;
+}
