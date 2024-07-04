@@ -4,6 +4,7 @@ import AboutSection from "@/components/AboutSection";
 import { Metadata } from "next";
 import InfoGrid from "@/components/InfoGrid";
 import Spacer from "@/components/Spacer";
+import CallToAction from "@/components/CallToAction";
 
 export const metadata: Metadata = {
   title: "ECSMB - High-Performance eCommerce solutions",
@@ -25,6 +26,12 @@ export default function Home() {
       />
       <Spacer height="h-20 md:h-40" />
       <InfoGrid />
+      <Spacer height="h-20 md:h-40" />
+      <CallToAction
+        imgData={homeImg}
+        imgAlt="Call to action"
+        title="Still not sure? Let's make a meeting."
+      />
       <Spacer height="h-20 md:h-40" />
     </>
   );
