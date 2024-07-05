@@ -21,7 +21,7 @@ export default function Hero(props: HeroProps) {
           />
           <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
-        <PageHeading>{props.title}</PageHeading>
+        <PageHeading title={props.title} />
       </div>
     </>
   );
