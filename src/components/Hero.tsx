@@ -1,5 +1,6 @@
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
+import PageHeading from "./PageHeading";
 
 interface HeroProps {
   imgData: StaticImageData;
@@ -20,9 +21,7 @@ export default function Hero(props: HeroProps) {
           />
           <div className="absolute inset-0 bg-black opacity-60"></div>
         </div>
-        <div className="px-10 text-center md:text-left flex justify-center items-center">
-          <h1 className="text-white text-xl sm:text-3xl md:text-5xl xl:text-6xl max-w-[900px]">{props.title}</h1>
-        </div>
+        <PageHeading>{props.title}</PageHeading>
       </div>
     </>
   );

@@ -27,7 +27,7 @@ export default function CallToAction(props: CallToActionProps) {
           </h3>
           <Link
             href="/contact"
-            className="text-3xl border-2 border-primary px-4 py-2 sm:px-8 sm:py-4 bg-primary text-secondary hover:bg-primary-light transition-transform"
+            className="text-3xl border-2 border-secondary px-4 py-2 sm:px-8 sm:py-4 bg-primary text-secondary hover:bg-primary-light transition-transform"
           >
             Contact Us
           </Link>
