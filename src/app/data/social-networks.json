@@ -1,0 +1,22 @@
+[
+  {
+    "title": "LinkedIn",
+    "icon": "/ecsmb-linkedin.svg",
+    "url": "https://www.linkedin.com/company/ecsmb"
+  },
+  {
+    "title": "Facebook",
+    "icon": "/ecsmb-facebook.svg",
+    "url": ""
+  },
+  {
+    "title": "Instagram",
+    "icon": "/ecsmb-instagram.svg",
+    "url": ""
+  },
+  {
+    "title": "Pinterest",
+    "icon": "/ecsmb-pinterest.svg",
+    "url": ""
+  }
+]
