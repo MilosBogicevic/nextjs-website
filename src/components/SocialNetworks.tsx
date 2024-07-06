@@ -23,7 +23,7 @@ export default function SocialNetworks() {
               alt={`ECSMB ${el.title} page.`}
               width={40}
               height={40}
-              className="cursor-default text-gray-400"
+              className="filter grayscale brightness-200"
             />
           )
         )}
