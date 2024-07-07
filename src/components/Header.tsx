@@ -20,8 +20,8 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <div className="w-full absolute bg-white z-10">
-      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-8">
+    <div className="w-full fixed top-0 bg-white z-10 shadow-md">
+      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-4 ">
         <div className="flex w-full md:w-auto justify-between gap-x-8">
           <Link href="/" onClick={closeMenu}>
             <Image

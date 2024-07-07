@@ -1,5 +1,5 @@
 import React from "react";
-import InfoGridData from "@/app/data/info-grid.json";
+import InfoGridData from "@/app/data/text-with-image-data.json";
 import Image from "next/image";
 
 export default function TextWithImage() {
@@ -11,7 +11,7 @@ export default function TextWithImage() {
             key={index}
             className={`${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } flex flex-col border border-gray-200 rounded bg-primary p-8 md:p-12 transition-transform ease-in-out hover:scale-105`}
+            } flex flex-col border border-gray-200 rounded bg-primary py-8 md:py-12 px-8 md:px-0 transition-transform ease-in-out hover:scale-105`}
           >
             <div className="w-full md:w-1/2 h-48 md:h-auto">
               <Image
@@ -19,7 +19,7 @@ export default function TextWithImage() {
                 alt=""
                 width={200}
                 height={200}
-                className="w-full h-full object-cover rounded"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="w-full md:w-1/2 pt-8 md:p-12">
