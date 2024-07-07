@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        xs: "360px",
+        sm: "482px",
+        md: "991px",
+        lg: "1440px",
+        xl: "1920px",
+      },
       colors: {
         primary: {
           DEFAULT: "#234e70",
