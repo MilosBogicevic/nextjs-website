@@ -11,7 +11,7 @@ export default function TextWithImage() {
             key={index}
             className={`${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } flex flex-col border border-gray-200 rounded bg-primary py-8 md:py-12 px-8 md:px-0 transition-transform ease-in-out hover:scale-105`}
+            } flex flex-col py-8 md:py-12 px-8 md:px-0 transition-transform ease-in-out hover:scale-105`}
           >
             <div className="w-full md:w-1/2 h-48 md:h-auto">
               <Image
@@ -23,8 +23,8 @@ export default function TextWithImage() {
               />
             </div>
             <div className="w-full md:w-1/2 pt-8 md:p-12">
-              <h2 className="text-2xl font-bold text-secondary">{el.title}</h2>
-              <p className="mt-2 text-xl text-white">{el.content}</p>
+              <h2 className="text-2xl font-bold text-primary">{el.title}</h2>
+              <p className="mt-2 text-xl text-primary-light">{el.content}</p>
             </div>
           </div>
         ))}
