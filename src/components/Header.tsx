@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <div className="w-full fixed top-0 bg-white z-10 shadow-md">
-      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-4 ">
+      <nav className="container relative flex flex-col md:flex-row justify-between items-center mx-auto p-4">
         <div className="flex w-full md:w-auto justify-between gap-x-8">
           <Link href="/" onClick={closeMenu}>
             <Image
@@ -32,7 +32,7 @@ export default function Header() {
               className="transition-transform hover:scale-105"
             />
           </Link>
-          <div className="flex md:hidden" onClick={toggleMenu}>
+          <div className="flex md:hidden cursor-pointer" onClick={toggleMenu}>
             <Image
               src={MenuIcon}
               alt=""
@@ -43,8 +43,10 @@ export default function Header() {
           </div>
         </div>
         <div
-          className={`flex flex-col items-center sm:flex-row gap-x-8 gap-y-4 text-xl text-primary font-bold transition-all duration-500 ease-in-out overflow-hidden ${
-            isMenuOpen ? "max-h-screen opacity-100 mt-8" : "max-h-0 opacity-0"
+          className={`flex flex-col items-center sm:flex-row gap-x-8 gap-y-4 text-xl text-primary font-bold transition-all duration-200 ease-in-out overflow-hidden ${
+            isMenuOpen
+              ? "max-h-screen opacity-100 mt-8 md:mt-0"
+              : "max-h-0 opacity-0"
           } md:max-h-none md:opacity-100 md:flex`}
         >
           <Link
