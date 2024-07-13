@@ -14,7 +14,7 @@ export default function TextWithImage() {
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
             } flex flex-col py-8 md:py-12 px-8 md:px-0`}
           >
-            <div className="w-full md:w-1/2 h-48 md:h-auto">
+            <div className="w-full md:w-1/2 h-auto">
               <Image
                 src={el.image}
                 alt=""
@@ -23,7 +23,7 @@ export default function TextWithImage() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="w-full md:w-1/2 pt-8 md:p-12">
+            <div className="w-full md:w-1/2 pt-8 md:pt-0 md:p-12">
               <TitleWithDescription title={el.title} text={el.description} />
             </div>
           </div>
