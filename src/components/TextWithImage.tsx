@@ -1,6 +1,7 @@
 import React from "react";
 import InfoGridData from "@/app/data/text-with-image-data.json";
 import Image from "next/image";
+import TitleWithDescription from "./TitleWithDescription";
 
 export default function TextWithImage() {
   return (
@@ -23,8 +24,7 @@ export default function TextWithImage() {
               />
             </div>
             <div className="w-full md:w-1/2 pt-8 md:p-12">
-              <h2 className="text-2xl font-bold text-primary">{el.title}</h2>
-              <p className="mt-2 text-xl text-primary-light">{el.content}</p>
+              <TitleWithDescription title={el.title} text={el.description} />
             </div>
           </div>
         ))}

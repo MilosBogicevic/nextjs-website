@@ -1,22 +1,22 @@
 [
   {
     "title": "eCommerce Strategy Development",
-    "content": "We collaborate closely with brands to formulate tailored eCommerce strategies that align with their business goals and market demands. Our approach encompasses market analysis, competitor benchmarking, and strategic planning to maximize online presence and profitability.",
+    "description": "We collaborate closely with brands to formulate tailored eCommerce strategies that align with their business goals and market demands. Our approach encompasses market analysis, competitor benchmarking, and strategic planning to maximize online presence and profitability.",
     "image": "/hero-image-1.jpg"
   },
   {
     "title": "Technology Integration",
-    "content": "We specialize in integrating cutting-edge eCommerce technologies that enhance user experience and streamline operations. From platform selection to implementation and customization, we ensure seamless integration of technology solutions that drive efficiency and customer satisfaction.",
+    "description": "We specialize in integrating cutting-edge eCommerce technologies that enhance user experience and streamline operations. From platform selection to implementation and customization, we ensure seamless integration of technology solutions that drive efficiency and customer satisfaction.",
     "image": "/hero-image-2.jpg"
   },
   {
     "title": "Customer Experience Enhancement",
-    "content": "We focus on enriching the customer journey through personalized experiences and intuitive design. By analyzing user behavior and implementing UX/UI best practices, we optimize eCommerce platforms to foster customer loyalty and elevate satisfaction levels.",
+    "description": "We focus on enriching the customer journey through personalized experiences and intuitive design. By analyzing user behavior and implementing UX/UI best practices, we optimize eCommerce platforms to foster customer loyalty and elevate satisfaction levels.",
     "image": "/hero-image-3.jpg"
   },
   {
     "title": "Analytics and Performance Tracking",
-    "content": "We leverage advanced analytics tools to track eCommerce performance metrics and derive actionable insights. By monitoring key performance indicators (KPIs), we provide data-driven recommendations to continuously improve operational efficiency and achieve business objectives.",
+    "description": "We leverage advanced analytics tools to track eCommerce performance metrics and derive actionable insights. By monitoring key performance indicators (KPIs), we provide data-driven recommendations to continuously improve operational efficiency and achieve business objectives.",
     "image": "/hero-image-4.jpg"
   }
 ]
