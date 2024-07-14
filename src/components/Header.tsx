@@ -5,6 +5,7 @@ import Logo from "/public/logo.svg";
 import MenuIcon from "/public/menu-icon.svg";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
+import Button from "./Button";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,17 +72,12 @@ export default function Header() {
           >
             who we are
           </Link>
-          <Link
-            href="/contact"
-            className={`border-2 border-primary px-4 py-2 ${
-              pathname === "/contact"
-                ? "bg-secondary text-primary"
-                : "bg-primary text-secondary hover:bg-primary-light transition-transform"
-            }`}
+          <Button
+            url="/contact"
+            text="let's talk"
+            size="small"
             onClick={closeMenu}
-          >
-            let&apos;s talk
-          </Link>
+          />
         </div>
       </nav>
     </div>

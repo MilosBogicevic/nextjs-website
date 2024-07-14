@@ -1,6 +1,6 @@
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "./Button";
 
 interface CallToActionProps {
   imgData: StaticImageData;
@@ -25,12 +25,7 @@ export default function CallToAction(props: CallToActionProps) {
           <h3 className="text-white text-center px-8 text-3xl sm:text-5xl max-w-[900px]">
             {props.title}
           </h3>
-          <Link
-            href="/contact"
-            className="text-3xl border-2 border-secondary px-4 py-2 sm:px-8 sm:py-4 bg-primary text-secondary hover:bg-primary-light transition-transform"
-          >
-            Contact Us
-          </Link>
+          <Button url="/contact" size="big" text="Contact Us" />
         </div>
       </div>
     </>
