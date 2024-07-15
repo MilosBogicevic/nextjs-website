@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 
 interface ButtonProps {
   url: string;
-  size: "big" | "small";
+  size: "large" | "small";
   text: string;
   onClick?: () => void;
 }
@@ -17,8 +17,8 @@ export default function Button(props: ButtonProps) {
       <Link
         href={props.url}
         className={`${
-          props.size === "big"
-            ? "px-4 py-2 sm:px-8 sm:py-4 text-3xl"
+          props.size === "large"
+            ? "px-4 py-2 sm:px-8 sm:py-4 text-3xl border-2 border-secondary"
             : "px-4 py-2 text-xl"
         } ${
           pathname === "/contact"

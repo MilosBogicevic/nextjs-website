@@ -12,7 +12,7 @@ export default function TextWithImage() {
             key={index}
             className={`${
               index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-            } flex flex-col py-8 md:py-12 px-8 md:px-0`}
+            } flex flex-col py-8 md:py-12`}
           >
             <div className="w-full md:w-1/2 h-auto">
               <Image

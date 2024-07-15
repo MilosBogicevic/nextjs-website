@@ -25,7 +25,7 @@ export default function CallToAction(props: CallToActionProps) {
           <h3 className="text-white text-center px-8 text-3xl sm:text-5xl max-w-[900px]">
             {props.title}
           </h3>
-          <Button url="/contact" size="big" text="Contact Us" />
+          <Button url="/contact" size="large" text="Contact Us" />
         </div>
       </div>
     </>
