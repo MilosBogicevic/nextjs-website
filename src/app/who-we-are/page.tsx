@@ -3,6 +3,7 @@ import homeImg from "/public/hero-image-2.jpg";
 import { Metadata } from "next";
 import Spacer from "@/components/Spacer";
 import CallToAction from "@/components/CallToAction";
+import Teams from "@/components/Teams";
 
 export const metadata: Metadata = {
   title: "Who we are",
@@ -18,6 +19,8 @@ export default function WhoWeArePage() {
         imgAlt="Who we are"
         title="We are a modern consulting company focused on strategy, technology, and business transformation."
       />
+      <Spacer height="h-20 md:h-40" />
+      <Teams />
       <Spacer height="h-20 md:h-40" />
       <CallToAction
         imgData={homeImg}

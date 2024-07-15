@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Y-team",
+    "image": "/hero-image-3.jpg",
+    "alt": "Ecommerce solutions team",
+    "about": {
+      "projectManagers": "1",
+      "frontEndDevs": "4",
+      "backEndDevs": "8",
+      "qaDevs": "3",
+      "projectsAvailiability": 2
+    }
+  },
+  {
+    "name": "B-team",
+    "image": "/hero-image-3.jpg",
+    "alt": "Ecommerce solutions team",
+    "about": {
+      "projectManagers": "10",
+      "frontEndDevs": "25",
+      "backEndDevs": "40",
+      "qaDevs": "12",
+      "projectsAvailiability": 5
+    }
+  },
+  {
+    "name": "I-team",
+    "image": "/hero-image-3.jpg",
+    "alt": "Ecommerce solutions team",
+    "about": {
+      "projectManagers": "4",
+      "frontEndDevs": "6",
+      "backEndDevs": "6",
+      "qaDevs": "2",
+      "projectsAvailiability": 0
+    }
+  }
+]
