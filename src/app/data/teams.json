@@ -1,7 +1,7 @@
 [
   {
     "name": "Y-team",
-    "image": "/hero-image-3.jpg",
+    "image": "/hero-image-2.jpg",
     "alt": "Ecommerce solutions team",
     "about": {
       "projectManagers": "1",
@@ -25,7 +25,7 @@
   },
   {
     "name": "I-team",
-    "image": "/hero-image-3.jpg",
+    "image": "/hero-image-4.jpg",
     "alt": "Ecommerce solutions team",
     "about": {
       "projectManagers": "4",
