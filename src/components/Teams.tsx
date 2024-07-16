@@ -18,7 +18,7 @@ export default function Teams() {
                   height={400}
                 />
                 <div className="absolute inset-0 bg-primary opacity-80 border-4 border-secondary"></div>
-                <h3 className="text-5xl font-bold text-secondary absolute bottom-4 left-4">
+                <h3 className="text-2xl sm:text-5xl font-bold text-secondary absolute bottom-4 left-4">
                   {team.name}
                 </h3>
               </div>
@@ -28,7 +28,7 @@ export default function Teams() {
                     <th className="border border-gray-200 p-4">
                       Project Managers
                     </th>
-                    <td className="border border-gray-200 p-4 max-w-5 text-center">
+                    <td className="border border-gray-200 p-4 max-w-12 sm:max-w-5 text-center">
                       {team.about.projectManagers}
                     </td>
                   </tr>
@@ -36,7 +36,7 @@ export default function Teams() {
                     <th className="border border-gray-200 p-4">
                       Frontend Developers
                     </th>
-                    <td className="border border-gray-200 p-4 max-w-5 text-center">
+                    <td className="border border-gray-200 p-4 max-w-12 sm:max-w-5 text-center">
                       {team.about.frontEndDevs}
                     </td>
                   </tr>
@@ -44,7 +44,7 @@ export default function Teams() {
                     <th className="border border-gray-200 p-4">
                       Backend Developers
                     </th>
-                    <td className="border border-gray-200 p-4 max-w-5 text-center">
+                    <td className="border border-gray-200 p-4 max-w-12 sm:max-w-5 text-center">
                       {team.about.backEndDevs}
                     </td>
                   </tr>
@@ -52,7 +52,7 @@ export default function Teams() {
                     <th className="border border-gray-200 p-4">
                       QA Developers
                     </th>
-                    <td className="border border-gray-200 p-4 max-w-5 text-center">
+                    <td className="border border-gray-200 p-4 max-w-12 sm:max-w-5 text-center">
                       {team.about.qaDevs}
                     </td>
                   </tr>
@@ -61,7 +61,7 @@ export default function Teams() {
                       Projects Availability
                     </th>
                     <td
-                      className={`border border-gray-200 p-4 max-w-5 text-center ${
+                      className={`border border-gray-200 p-4 max-w-12 sm:max-w-5 text-center ${
                         team.about.projectsAvailiability === 0
                           ? "bg-red-600 text-white"
                           : "bg-green-600 text-white"
