@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import TextWithImage from "@/components/TextWithImage";
 import Spacer from "@/components/Spacer";
 import CallToAction from "@/components/CallToAction";
+import Platforms from "@/components/Platforms";
 
 export const metadata: Metadata = {
   title: "What we do",
@@ -27,6 +28,8 @@ export default function WhatWeDoPage() {
         imgAlt="Call to action"
         title="Still not sure? Let's make a meeting."
       />
+      <Spacer height="h-20 md:h-40" />
+      <Platforms />
       <Spacer height="h-20 md:h-40" />
     </>
   );
