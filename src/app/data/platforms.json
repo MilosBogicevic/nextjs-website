@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/logo.svg",
+    "alt": "Salesforce Commerce Cloud",
+    "width": 200,
+    "height": 500
+  },
+  {
+    "image": "/logo.svg",
+    "alt": "Magento",
+    "width": 200,
+    "height": 500
+  },
+  {
+    "image": "/logo.svg",
+    "alt": "WooCommerce",
+    "width": 200,
+    "height": 500
+  },
+  {
+    "image": "/logo.svg",
+    "alt": "Shopify",
+    "width": 200,
+    "height": 500
+  }
+]
