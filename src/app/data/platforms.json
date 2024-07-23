@@ -1,26 +1,26 @@
 [
   {
-    "image": "/logo.svg",
+    "image": "/salesforce-logo.png",
     "alt": "Salesforce Commerce Cloud",
     "width": 200,
-    "height": 500
+    "height": 200
   },
   {
-    "image": "/logo.svg",
+    "image": "/magento-logo.png",
     "alt": "Magento",
     "width": 200,
-    "height": 500
+    "height": 200
   },
   {
-    "image": "/logo.svg",
-    "alt": "WooCommerce",
-    "width": 200,
-    "height": 500
-  },
-  {
-    "image": "/logo.svg",
+    "image": "/shopify-logo.png",
     "alt": "Shopify",
     "width": 200,
-    "height": 500
+    "height": 200
+  },
+  {
+    "image": "/woocommerce-logo.png",
+    "alt": "WooCommerce",
+    "width": 200,
+    "height": 200
   }
 ]

@@ -7,7 +7,7 @@ export default function Platforms() {
     <>
       <div className="flex flex-col items-center gap-y-20 px-4 text-center">
         <SectionHeading title="Technology platforms" />
-        <div className="flex justify-center gap-8 flex-wrap">
+        <div className="flex justify-center gap-20 md:gap-40 flex-wrap flex-col sm:flex-row items-center">
           {PlatformsData.map((platform, index) => (
             <div key={index}>
               <Image
@@ -15,7 +15,7 @@ export default function Platforms() {
                 alt=""
                 width={platform.width}
                 height={platform.height}
-                className="transition-transform hover:scale-105"
+                className="w-auto h-20 md:h-32 transition-transform hover:scale-105"
               />
             </div>
           ))}
